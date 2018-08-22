@@ -1,0 +1,52 @@
+DDP: Course Project: Shiny Application and Reproducible Pitch
+========================================================
+author: Akash Das
+date: 22-08-2018
+autosize: true
+
+About couse Project
+========================================================
+
+- Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
+- Deploy the application on Rstudio's shiny server
+- Share the application link by pasting it into the provided text box
+- Share your server.R and ui.R code on github
+
+
+What is BMR (Basal Metabolic Rate)
+========================================================
+Basal metabolic rate (BMR) is the rate of energy expenditure per unit time by your body at rest. Basal metabolic rate is the amount of energy per unit time that a person needs to keep the body functioning at rest. Some of those processes are breathing, blood circulation, controlling body temperature, cell growth, brain and nerve function, and contraction of muscles. Basal metabolic rate (BMR) affects the rate that a person burns calories and ultimately whether that individual maintains, gains, or loses weight. The basal metabolic rate accounts for about 60 to 75% of the daily calorie expenditure by individuals. It is influenced by several factors. BMR typically declines by 1-2% per decade after age 20, mostly due to loss of fat-free mass,[3] although the variability between individuals is high.
+
+For More information please visit wiki <https://en.wikipedia.org/wiki/Basal_metabolic_rate>.
+
+Why it is importent : If you want to loose weight, you need to consume less than your BMR and if you want to increase, you need to eat more than your BMR.
+
+How to calculate BMR
+========================================================
+Several prediction equations exist. Historically, the most notable one was the Harris-Benedict equation, which was created in 1919. We will use the same formulla to get the value.
+METRIC BMR FORMULA : (Weight in Kilograms, Height in Centimetres, Age in Years)
+ - Women BMR = 655 + (9.6 x Weight) + (1.8 x Height) - (4.7 x Age)
+ - Men BMR = 66+(13.7 x Weight) + (5 x Height) - (6.8 x Age)
+ 
+It is to be noted that before calculating the BMR we should know the value of our body fat. Lean Body Mass is basically the fat free mass in our body.
+There is a very simple formula that is been used to calculate the lean mass i.e.:
+
+ - Lean Mass = Total Body Weight - (Body Fat % x Total Body Weight).
+
+How to use the app
+========================================================
+To calculate BMR you need to provide your Gender, Age, Weight, Height, Body fat percentage in left slide of the app. Please make sure to select correct unit for weight and Height as well to get correct calculation.
+
+If you want to see the calculation, you can check the last check button. this has no effect on calculation.
+
+You can find the app on <https://das-akash.shinyapps.io/DDP_Week4/>.
+
+We have used Shiny application in R studio to create the app and you can find the script on github on <https://github.com/akashdas-github/Course9_DDP>.
+
+Thank you for your visit.
+========================================================
+
+
+
+
+
